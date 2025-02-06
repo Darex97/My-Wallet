@@ -2,5 +2,54 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: row;
 }
 
+.pick{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 100vh;
+    background-color: #807F9F;
+}
+.leftPick{
+
+    display: flex;
+    flex-direction: column;
+    height: max-content;
+    background-color: #fefae0;
+    height: 100vh;
+    width: 20vw;
+    padding-top: 5rem;
+    gap: 2px;
+    padding-left: 0.6rem;
+    padding-right: 0.3rem;
+    
+
+}
+.rightPick{
+    display: flex;
+    height: max-content;
+    background:linear-gradient(45deg, #fefae0, #03045e);
+    
+    height: 100vh;
+    width: 80vw;
+    padding-top: 5rem;
+}
+.lBtns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    //background-color: #bfbdbf;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+    border: solid #03045e 2px;
+    border-radius: 10%;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.lBtns:hover {
+    background-color: #bfbdbf;
+}
