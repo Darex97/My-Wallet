@@ -8,7 +8,9 @@
         "money": 2500.75,
         "transactions": [
           {"id": 101, "amount": -200.50, "type": "debit", "description": "Grocery shopping"},
-          {"id": 102, "amount": 500.00, "type": "credit", "description": "Salary deposit"}
+          {"id": 102, "amount": 500.00, "type": "credit", "description": "Salary deposit"},
+          {"id": 111, "amount": -90.00, "type": "debit", "description": "Gym membership"},
+          {"id": 112, "amount": 350.00, "type": "credit", "description": "Freelance gig"}
         ]
       },
       {
