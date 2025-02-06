@@ -1,0 +1,29 @@
+.navbar{
+
+    position: fixed;
+    display: flex;
+    padding-left: 1rem;
+    top: 0;
+    z-index: 100;
+    width: 100%;
+    background:
+    linear-gradient(45deg, #fefae0, #03045e);
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.groupForLogut{
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    color: #fefae0;
+}
+
+.profil{
+    display: flex;
+    padding-right: 1rem;
+}
+
+.logout{
+    cursor: pointer;
+}

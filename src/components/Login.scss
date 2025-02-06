@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap");
+
+.wrapper{
+    position: relative;
+    width: 550px;
+    height: 550px;
+    display: grid;
+    place-items: center;
+    font-family: "Quicksand", sans-serif;
+}
+.wrapper i {
+    position: absolute;
+    inset: 0;
+    border: 2px solid #fff;
+    transition: 0.5s;
+
+    &:nth-child(1) {
+        border-radius: 
+        38% 62% 63% 37% / 41% 44% 56% 59%;
+        animation: anim 6s linear infinite;
+    }
+
+    &:nth-child(2), &:nth-child(3) {
+        border-radius: 
+        41% 44% 56% 59% / 38% 62% 63% 37%;
+    }
+
+    &:nth-child(2){
+        animation: anim 4s linear infinite;
+    }
+
+    &:nth-child(3){
+        animation: anim2 10s linear infinite;
+    }
+}
+.wrapper:hover i {
+    border: 6px solid var(--clr);
+    filter: drop-shadow(0 0 20px var(--clr));
+}
+@keyframes anim {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes anim2 {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.login {
+    width: 350px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    z-index: 2;
+}
+
+.links{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+/* You can add global styles to this file, and also import other style files */
+//@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap");
+
+.myBody {
+    height: 100vh; 
+    display: grid;
+    place-items: center;
+    background: #111;
+    font-size: 1.3em;
+}
+h2, input, a {
+    color: #fff;
+}
+
+h2 {
+    font-size: 2em;
+    margin: 0;
+}
+
+input {
+    width: 100%;
+    border: 2px solid #fff;
+    border-radius: 40px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    background: transparent;
+    font-size:  1,2em;
+    box-shadow: none;
+    outline: none;
+}
+
+input[type="submit"]{
+    width: 100%;
+    background:
+    linear-gradient(45deg, #fefae0, #03045e);
+    border:none;
+    cursor: pointer;
+}
+
+input::placeholder{
+    color: rgba(255,255,255,0.75);
+}
+
+a {
+    text-decoration: none;
+}
