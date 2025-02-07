@@ -4,6 +4,7 @@ import Navbar from './components/Navbar';
 import Home from './components/Home';
 import Login from './components/Login';
 import NotFound from './components/NotFound';
+import Signup from './components/Signup';
 
 function App() {
 
@@ -18,6 +19,9 @@ function App() {
             </Route>
             <Route path ="/login">
               <Login/>
+            </Route>
+            <Route path ="/signup">
+              <Signup/>
             </Route>
 
             <Route path="*">

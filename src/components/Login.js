@@ -28,9 +28,22 @@ const Login = () => {
             history.push('/');
         }
         else{
-            alert("Wrong password or email")
+            alert("Wrong password or email");
+            setEmail('');
+            setPassword('');
         }
         
+      }
+
+      const clickForgotPassword = (e) => {
+        history.push('/NotDefinded');
+        
+      }
+
+      const clickSignup = (e) => {
+        
+        history.push('/signup');
+
       }
 
 
@@ -57,8 +70,8 @@ const Login = () => {
                         />
                         <input type="submit" value="Sign in" onClick={handleSubmit} />
                         <div className="links">
-                            <a href="#">Forget Password</a>
-                            <a href="#">Signup</a>
+                            <a  onClick={clickForgotPassword} >Forget Password</a>
+                            <a  onClick={clickSignup}>Signup</a>
                         </div>
                     </div>
                 </div>

@@ -1,62 +1,121 @@
 {
-    "users": [
-      {
-        "id": 1,
-        "name": "Darko Stosic",
-        "email": "darko@gmail.com",
-        "password": "darko123",
-        "money": 2500.75,
-        "transactions": [
-          {"id": 101, "amount": -200.50, "type": "debit", "description": "Grocery shopping"},
-          {"id": 102, "amount": 500.00, "type": "credit", "description": "Salary deposit"},
-          {"id": 111, "amount": -90.00, "type": "debit", "description": "Gym membership"},
-          {"id": 112, "amount": 350.00, "type": "credit", "description": "Freelance gig"}
-        ]
-      },
-      {
-        "id": 2,
-        "name": "Bob Smith",
-        "email": "bob@example.com",
-        "password": "bob123",
-        "money": 1800.00,
-        "transactions": [
-          {"id": 103, "amount": -100.00, "type": "debit", "description": "Dinner out"},
-          {"id": 104, "amount": 200.00, "type": "credit", "description": "Freelance work"}
-        ]
-      },
-      {
-        "id": 3,
-        "name": "Charlie Davis",
-        "email": "charlie@example.com",
-        "password": "charlie123",
-        "money": 3200.50,
-        "transactions": [
-          {"id": 105, "amount": -50.75, "type": "debit", "description": "Coffee"},
-          {"id": 106, "amount": 150.00, "type": "credit", "description": "Bonus"}
-        ]
-      },
-      {
-        "id": 4,
-        "name": "Diana Evans",
-        "email": "diana@example.com",
-        "password": "diana123",
-        "money": 2750.25,
-        "transactions": [
-          {"id": 107, "amount": -300.00, "type": "debit", "description": "Electronics purchase"},
-          {"id": 108, "amount": 600.00, "type": "credit", "description": "Stock dividends"}
-        ]
-      },
-      {
-        "id": 5,
-        "name": "Ethan Wright",
-        "email": "ethan@example.com",
-        "password": "ethan123",
-        "money": 1500.00,
-        "transactions": [
-          {"id": 109, "amount": -80.00, "type": "debit", "description": "Gym membership"},
-          {"id": 110, "amount": 250.00, "type": "credit", "description": "Freelance gig"}
-        ]
-      }
-    ]
-  }
-  
+  "users": [
+    {
+      "id": "1",
+      "name": "Darko Stosic",
+      "email": "darko@gmail.com",
+      "password": "darko123",
+      "money": 2500.75,
+      "transactions": [
+        {
+          "id": 101,
+          "amount": -200.5,
+          "type": "debit",
+          "description": "Grocery shopping"
+        },
+        {
+          "id": 102,
+          "amount": 500,
+          "type": "credit",
+          "description": "Salary deposit"
+        },
+        {
+          "id": 111,
+          "amount": -90,
+          "type": "debit",
+          "description": "Gym membership"
+        },
+        {
+          "id": 112,
+          "amount": 350,
+          "type": "credit",
+          "description": "Freelance gig"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Bob Smith",
+      "email": "bob@example.com",
+      "password": "bob123",
+      "money": 1800,
+      "transactions": [
+        {
+          "id": 103,
+          "amount": -100,
+          "type": "debit",
+          "description": "Dinner out"
+        },
+        {
+          "id": 104,
+          "amount": 200,
+          "type": "credit",
+          "description": "Freelance work"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Charlie Davis",
+      "email": "charlie@example.com",
+      "password": "charlie123",
+      "money": 3200.5,
+      "transactions": [
+        {
+          "id": 105,
+          "amount": -50.75,
+          "type": "debit",
+          "description": "Coffee"
+        },
+        {
+          "id": 106,
+          "amount": 150,
+          "type": "credit",
+          "description": "Bonus"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Diana Evans",
+      "email": "diana@example.com",
+      "password": "diana123",
+      "money": 2750.25,
+      "transactions": [
+        {
+          "id": 107,
+          "amount": -300,
+          "type": "debit",
+          "description": "Electronics purchase"
+        },
+        {
+          "id": 108,
+          "amount": 600,
+          "type": "credit",
+          "description": "Stock dividends"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "name": "Ethan Wright",
+      "email": "ethan@example.com",
+      "password": "ethan123",
+      "money": 1500,
+      "transactions": [
+        {
+          "id": 109,
+          "amount": -80,
+          "type": "debit",
+          "description": "Gym membership"
+        },
+        {
+          "id": 110,
+          "amount": 250,
+          "type": "credit",
+          "description": "Freelance gig"
+        }
+      ]
+    }
+  ]
+}
