@@ -5,13 +5,13 @@ import { formatMoney } from '../functions/moneyFormat';
 
 const Exchange = ({money}) => {
 
-    const { error, isPending, data: exchangeRates } = useFetch('https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies/eur.json') 
+    const { error, isPending, data: exchangeRates } = useFetch('https://latest.currency-api.pages.dev/v1/currencies/eur.json') 
 
     //console.log(exchangeRates.eur)
     return ( 
         <div className='Exchange'>
-            { error && <div className="loading" >{ error }</div> }
-            { isPending && <div className="loading">Loading...</div> }
+            { error && <div className="loading2" >{ error }</div> }
+            { isPending && <div className="loading2">Loading...</div> }
             
             <div className="titleExchange"> Exchange Rates</div>
             {exchangeRates && <div className='ratesData'> 

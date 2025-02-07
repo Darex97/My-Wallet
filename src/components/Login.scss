@@ -77,14 +77,15 @@
     box-sizing: border-box;
 }
 
-/* You can add global styles to this file, and also import other style files */
-//@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap");
 
 .myBody {
     height: 100vh; 
     display: grid;
     place-items: center;
-    background: #111;
+    // background: #111; ovako je mozda lepse ali cela app je u drugoj boji
+    background:linear-gradient(45deg, #fefae0, #03045e);
+    width: 100vw;
+    height: 100vh;
     font-size: 1.3em;
 }
 h2, input, a {

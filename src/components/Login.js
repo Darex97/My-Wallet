@@ -51,9 +51,9 @@ const Login = () => {
         <div className="login">
             <div className="myBody"> 
                 <div className="wrapper">
-                    <i style={{ '--clr': '#8ecae6' }}></i>
-                    <i style={{ '--clr': '#219ebc' }}></i>
-                    <i style={{ '--clr': '#023047' }}></i>
+                    <i style={{ '--clr': '#fefae0' }}></i>
+                    <i style={{ '--clr': '#808297' }}></i>
+                    <i style={{ '--clr': '#03045e' }}></i>
                     <div className="login">
                         <h2>Login</h2>
                         <input 
