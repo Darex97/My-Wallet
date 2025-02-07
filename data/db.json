@@ -116,6 +116,14 @@
           "description": "Freelance gig"
         }
       ]
+    },
+    {
+      "id": "6597",
+      "name": "nekoneko",
+      "email": "neko@gmail.com",
+      "password": "neko123",
+      "money": "6000",
+      "transactions": []
     }
   ]
 }
